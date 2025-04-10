@@ -1,0 +1,28 @@
+{
+   "React App Component": {
+     "prefix": "comp",
+     "body": [
+       "export function ${1:ComponentName}() {",
+       "\t// #region 상수와 변수 정의",
+       "\t",
+       "\t// #endregion",
+       "",
+       "\t// #region 상태 정의",
+       "\t",
+       "\t// #endregion",
+       "",
+       "\t// #region 이벤트 핸들러 정의",
+       "\t",
+       "\t// #endregion",
+       "",
+       "\t// #region 사이드 이펙트 처리",
+       "\t",
+       "\t// #endregion",
+       "",
+       "\treturn <></>;",
+       "}",
+     ],
+     "description": "React App Component Boilerplate"
+   }
+ }
+ 
