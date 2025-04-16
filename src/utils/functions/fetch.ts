@@ -10,7 +10,10 @@ interface FetchResponse<T = any> {
 	statusText: string;
 }
 
-export async function fetch_<T = any>(input: RequestInfo | URL, options?: FetchOptions): Promise<FetchResponse<T>> {
+export default async function fetch_<T = any>(
+	input: RequestInfo | URL,
+	options?: FetchOptions
+): Promise<FetchResponse<T>> {
 	const controller = new AbortController();
 	const timeoutId = setTimeout(() => controller.abort(), options?.timeout || 20000);
 
